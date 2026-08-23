@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabInstruments - Precision Embedded & Bio-Sensing</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-glow: #38bdf8;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --border-color: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 48px 40px;
+            text-align: center;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+        }
+
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background-color: rgba(56, 189, 248, 0.1);
+            color: var(--accent-glow);
+            border: 1px solid rgba(56, 189, 248, 0.25);
+            padding: 6px 16px;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #22c55e;
+            border-radius: 50%;
+            box-shadow: 0 0 8px #22c55e;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            font-size: 1.125rem;
+            color: var(--accent-glow);
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 36px;
+        }
+
+        .info-box {
+            background-color: rgba(15, 23, 42, 0.6);
+            border: 1px dashed var(--border-color);
+            border-radius: 10px;
+            padding: 16px 20px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+            word-break: break-all;
+        }
+
+        .info-box strong {
+            color: var(--text-primary);
+        }
+
+        footer {
+            font-size: 0.8125rem;
+            color: #64748b;
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="status-badge">
+            <span class="status-dot"></span>
+            GitHub Pages Active
+        </div>
+        
+        <h1>LabInstruments</h1>
+        <div class="subtitle">Precision Embedded Systems & Bio-Sensing Solutions</div>
+        
+        <p class="description">
+            공식 홈페이지 오픈 준비 중입니다.<br>
+            고정밀 신호처리와 지능형 임베디드 플랫폼을 위한 연구 및 솔루션을 제공합니다.
+        </p>
+
+        <div class="info-box">
+            Domain: <strong>labinstruments.github.io</strong><br>
+            Status: <strong>200 OK (Deployment Verified)</strong>
+        </div>
+
+        <footer>
+            &copy; 2026 LabInstruments. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
